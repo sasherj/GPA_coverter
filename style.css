@@ -16,16 +16,18 @@
 .container{
     height: max-content;
 }
+.bod{
+  display: inline-block;      
+}
 .button{
     border-radius: 5px;
     height: max-content;
     font-style: Helvetica, Arial, sans-serif;
-    height: 80px;
-    width: fit-content;
+    height: 300px;
+    width: 200px;
     display: block;
     padding: 5px;
-    overflow-wrap: break-word;
-    left: 50%;
+    white-space: normal;
     
     
 }
@@ -37,9 +39,6 @@ body{
     background-repeat: no-repeat;
 }
 
-.bod{
-  display: inline-block;      
-}
 anim{
     width: 20%;
 }
